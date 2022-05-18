@@ -1,6 +1,4 @@
-DEPMOD  = /sbin/depmod
-ARCH := arm
-CROSS_COMPILE ?=
+ARCH := $(ARCH)
 
 obj-m := cs_lcd.o
 
