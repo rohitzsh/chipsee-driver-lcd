@@ -1,5 +1,3 @@
-ARCH := $(ARCH)
-
 obj-m := cs_lcd.o
 
 SRC := $(shell pwd)
